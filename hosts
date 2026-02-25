@@ -1,0 +1,6 @@
+[HQ]
+hq-srv ansible_port=2026 ansible_user=sshuser
+hq-rtr ansible_user=net_admin
+hq-cli ansible_user=user
+[BR]
+br-rtr ansible_user=net_admin
